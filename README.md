@@ -398,7 +398,7 @@ Streamlit UI ← Model Outputs & Monitoring
 # 📁 **Folder Structure**
 
 ```
-Customer-Lifetime-Value-Analytics/
+Customer-Lifetime-Value-Analytics-System/
 │
 ├── app/
 │   ├── auto_retrain.py
@@ -469,8 +469,8 @@ Customer-Lifetime-Value-Analytics/
 ### 1️⃣ Clone
 
 ```bash
-git clone https://github.com/girishshenoy16/Customer-Lifetime-Value-Analytics
-cd Customer-Lifetime-Value-Analytics
+git clone https://github.com/girishshenoy16/Customer-Lifetime-Value-Analytics-System
+cd Customer-Lifetime-Value-Analytics-System
 ```
 
 ## 2️⃣ Create Virtual Environment
