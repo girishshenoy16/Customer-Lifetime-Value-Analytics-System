@@ -2,7 +2,7 @@
 
 ### *Enterprise-Grade Analytics Platform Built with Streamlit, XGBoost, and Real-Time Monitoring*
 
-![overview](screenshots/overview_tab.png)
+![Overview](screenshots/overview_tab.png)
 
 ---
 
@@ -79,7 +79,7 @@ Streamlit UI ← Model Outputs & Monitoring
 ### High-level business overview extracted from CLV, RFM, cohorts, personas & churn models.
 
 
-![executive\_summary](screenshots/executive_summary.png)
+![executive_summary](screenshots/executive_summary.png)
 
 
 **Includes:**

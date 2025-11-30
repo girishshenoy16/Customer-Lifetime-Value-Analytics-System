@@ -25,12 +25,6 @@ logs/
 models/
 !models/README.md
 
-# Reports & Images
-reports/*.md
-reports/*.pdf
-reports/img/
-screenshots/
-screenshots/visuals/
 
 # Data Files
 data/raw/*.csv
