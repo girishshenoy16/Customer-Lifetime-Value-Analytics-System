@@ -1,0 +1,18 @@
+import sys
+from pathlib import Path
+
+# Add project root to PYTHONPATH at runtime
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.append(str(ROOT))
+
+from app.cohort_analysis import build_cohort_retention
+from app.data_loader import load_transactions
+import pandas as pd
+
+def test_cohort_analysis_runs():
+    df = load_transactions()
+    counts, retention = build_cohort_retention(df)
+
+    assert counts.shape[0] > 0
+    assert retention.shape[1] > 0

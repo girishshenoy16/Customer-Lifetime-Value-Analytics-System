@@ -1,0 +1,60 @@
+# Core App Framework
+streamlit
+streamlit-option-menu
+
+
+# Data Science Stack
+pandas
+numpy
+scikit-learn
+python-dateutil
+scipy
+xgboost
+
+
+# Visualization
+plotly
+kaleido
+matplotlib
+seaborn
+altair
+
+
+# Monitoring / System Health / Utilities
+psutil
+pyyaml
+pytz
+tzdata
+
+
+# Saving / Loading
+joblib
+
+# PDF Support (HTML -> PDF)
+pdfkit
+weasyprint
+markdown
+
+# Note: You must mannually install wkhtmltopdf on the system
+
+
+# Monitoring + Drift Detection
+statsmodels
+
+
+# Utility 
+python dateutil
+Pillow
+tabulate
+
+
+# Optional Explainability
+shap
+
+
+# Testing 
+pytest
+
+
+# Zipping Logs
+zipfile36

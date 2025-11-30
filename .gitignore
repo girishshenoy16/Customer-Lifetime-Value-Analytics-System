@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pickle
+*.pkl
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/
+
+# Checking Files 
+app/checking.py
+
+# Logs
+logs/
+*.log
+
+# Model Outputs
+models/
+!models/README.md
+
+# Reports & Images
+reports/*.md
+reports/*.pdf
+reports/img/
+screenshots/
+screenshots/visuals/
+
+# Data Files
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.json
+
+# Cache
+*.cache
+.cache/
+.ipynb_checkpoints/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Zips
+*.zip
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.old
