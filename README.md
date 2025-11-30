@@ -442,6 +442,20 @@ Customer-Lifetime-Value-Analytics-System/
 │   └── rfm_report.md
 │
 ├── screenshots/
+│   ├── clv_tab.png
+│   ├── cohort_tab.png
+│   ├── customer_360.png
+│   ├── executive_summary.png
+│   ├── log_analytics.png
+│   ├── log_viewer.png
+│   ├── model_evaluation.png
+│   ├── model_mointoring.png
+│   ├── overview_tab.png
+│   ├── reports_preview.png
+│   ├── retention_tab.png
+│   ├── rfm_tab.png
+│   ├── showing_sidebar.png
+│   └── system_health.png
 │
 ├── tests/
 │   ├── conftest.py
