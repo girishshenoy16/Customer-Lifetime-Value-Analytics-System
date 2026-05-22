@@ -9,6 +9,7 @@
 <img src="screenshots/dashboard_overview.png" width="100%"/>
 
 <br/>
+
 <i>Customer Intelligence Platform for Lifetime Value Analytics, Segmentation, Retention Strategy & Business Decision Support</i>
 
 <br/>
