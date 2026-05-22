@@ -566,6 +566,7 @@ After completing these workflows, all dashboard modules become fully functional.
 Run all tests:
 
 ```bash
+pytest 
 pytest -q
 ```
 
