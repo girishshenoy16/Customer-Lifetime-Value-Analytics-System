@@ -21,6 +21,10 @@ app/checking.py
 logs/
 *.log
 
+# Reports
+reports/
+*.pdf
+
 # Model Outputs
 models/
 !models/README.md

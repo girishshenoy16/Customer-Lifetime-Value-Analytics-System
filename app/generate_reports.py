@@ -8,6 +8,7 @@ Creates professional markdown reports inside /reports/ for:
 - Persona insights
 - Cohort retention
 """
+
 import sys
 from pathlib import Path
 

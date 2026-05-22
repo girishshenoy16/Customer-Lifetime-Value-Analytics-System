@@ -16,6 +16,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import plotly.express as px
+from streamlit import session_state
 
 from app.data_loader import load_transactions
 from app.preprocess import preprocess_all
@@ -85,12 +86,17 @@ LOG = _get_logger(__name__, filename="ui.log")
 # =========================
 
 
+if "sidebar_state" not in session_state:
+    session_state.sidebar_state = "expanded"
+
+
 # =========================
 # PAGE CONFIG
 # =========================
 st.set_page_config(
     page_title="Customer Lifetime Value & Retention Analytics",
     layout="wide",
+    initial_sidebar_state=session_state.sidebar_state
 )
 
 LOG.info("Streamlit app starting - page config set")
